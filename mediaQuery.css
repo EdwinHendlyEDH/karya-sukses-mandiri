@@ -1,0 +1,150 @@
+@media (max-width: 1280px){
+    html {
+        font-size: 15px;
+    }
+
+    .massive {
+        font-size: 3.8rem;
+    }
+
+    .big {
+        font-size: 2.8rem;
+    }
+
+    #home .main-heading::after{
+        width: 350px;
+    }
+}
+@media (max-width: 1024px){
+    html {
+        font-size: 14.5px;
+    }
+
+    .massive {
+        font-size: 3.5rem;
+    }
+
+    .big {
+        font-size: 2.5rem;
+    }
+
+    #home .main-heading::after{
+        width: 310px;
+    }
+}
+@media (max-width: 880px){
+
+    .section-wide {
+        padding: 2rem 3rem;
+    }
+
+    #home .split {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #home .split .right {
+        width: 90%;
+        min-width: 200px;
+    }
+
+    #about .about-info {
+        flex-direction: column;
+    }
+
+    #why-us .section.split {
+        flex-direction: column;
+    }
+    
+    #why-us .section.split .left {
+        flex: initial;
+        width: 100%;
+        height: 25rem;
+    }
+
+    #home-extra {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #home-extra img:last-of-type{
+        display: none;
+    }
+
+    footer nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #home .main-heading::after{
+        width: 280px;
+    }
+
+    footer nav ul.sosmed{
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 768px){
+    html {
+        font-size: 14px;
+    }
+
+    .massive {
+        font-size: 3.3rem;
+    }
+
+    .big {
+        font-size: 2.3rem;
+    }
+
+    #home .burger {
+        display: flex;
+    }
+
+    #home nav ul {
+        display: none;
+    }
+}
+
+@media (max-width: 640px){
+    html {
+        font-size: 13.8px;
+    } 
+
+    footer nav {
+        gap: 2rem;
+    }
+
+    footer nav ul:not(.sosmed) {
+        flex-direction: column;
+    }
+
+    #home .main-heading::after{
+        width: 270px;
+    }
+}
+
+@media (max-width: 524px){
+    html {
+        font-size: 13.5px;
+    } 
+
+    #home-extra {
+        grid-template-columns: 1fr;
+    }
+
+    #home-extra img:nth-of-type(2) {
+        display: none;
+    }
+
+    #projects .split {
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: flex-start;
+    }
+
+    #why-us .section .right ul{
+        padding-left: 1rem;
+    }
+}
